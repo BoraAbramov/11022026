@@ -1,4 +1,3 @@
-from asyncio.unix_events import can_use_pidfd
 
 words = ["HELLO", "WORLD", "PYTHON", "CODE", "DEVELOPER", "AI"]
 
