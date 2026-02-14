@@ -1,3 +1,4 @@
+from itertools import count
 
 numbers = [10, 20, 30, 20, 40, 50]
 
@@ -35,7 +36,22 @@ numbers.pop(3)
 print(f"number from index 3 removed")
 
 #section 7
+
+print(f"the highest number {max(numbers)}")
+
 #section 8
+
+print(f"the lowest number {min(numbers)}")
+
 #section 9
+
+print(f"sum = {sum(numbers)}")
+
 #section 10
+import statistics
+
+print(f"the average of numbers is {statistics.mean(numbers)}")
+
 #section 11
+
+print(f"the number of indexes is {len(numbers)}")
